@@ -69,12 +69,8 @@ $route['forgot-password'] = "ForgotPasswordController/index";
 
 
 // chat contrtrolle routes
-$route['user/chat'] = 's/ChatController/index';
-$route['user/send-message'] = 's/ChatController/send_text_message';
-$route['user/chat-attachment/upload'] = 's/ChatController/send_text_message';
-$route['user/get-chat-history-vendor'] = 's/ChatController/get_chat_history_by_vendor';
-$route['user/chat-clear'] = 's/ChatController/chat_clear_client_cs';
-
-
-//landing page
-$route['fswdlanding'] = "Landing/index";
+$route['user/chat'] = 's/ChatController/index'
+$route['user/send-message'] = 's/ChatController/send_text_message'
+$route['user/chat-attachment/upload'] = 's/ChatController/send_text_message'
+$route['user/get-chat-history-vendor'] = 's/ChatController/get_chat_history_by_vendor'
+$route['user/chat-clear'] = 's/ChatController/chat_clear_client_cs'
